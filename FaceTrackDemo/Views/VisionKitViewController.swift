@@ -46,6 +46,7 @@ class VisionKitViewController: BaseViewController {
         }
 
         let videoOutput = AVCaptureVideoDataOutput()
+        videoOutput.alwaysDiscardsLateVideoFrames = true
         videoOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "com.vishalchandran.FaceTrackDemo.queue.videoOutput"))
 
         if captureSession.canAddOutput(videoOutput) {

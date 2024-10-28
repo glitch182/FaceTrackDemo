@@ -10,7 +10,6 @@
 		C970DC122CCE12E0004FC4A4 /* NameDescribable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970DC112CCE12E0004FC4A4 /* NameDescribable.swift */; };
 		C970DC152CCE137B004FC4A4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970DC142CCE137B004FC4A4 /* BaseViewController.swift */; };
 		C9C2A4F32CCD243F004701C7 /* VisionKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2A4F22CCD243F004701C7 /* VisionKitViewController.swift */; };
-		C9C2A4F52CCD2444004701C7 /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2A4F42CCD2444004701C7 /* ARKitViewController.swift */; };
 		C9E4ED202CCD146E00C77756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4ED162CCD146E00C77756 /* AppDelegate.swift */; };
 		C9E4ED212CCD146E00C77756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4ED1D2CCD146E00C77756 /* SceneDelegate.swift */; };
 		C9E4ED222CCD146E00C77756 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4ED1E2CCD146E00C77756 /* HomeViewController.swift */; };
@@ -23,7 +22,6 @@
 		C970DC112CCE12E0004FC4A4 /* NameDescribable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDescribable.swift; sourceTree = "<group>"; };
 		C970DC142CCE137B004FC4A4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C9C2A4F22CCD243F004701C7 /* VisionKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitViewController.swift; sourceTree = "<group>"; };
-		C9C2A4F42CCD2444004701C7 /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
 		C9E4ECDE2CCC034400C77756 /* FaceTrackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceTrackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E4ED162CCD146E00C77756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E4ED172CCD146E00C77756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				C970DC142CCE137B004FC4A4 /* BaseViewController.swift */,
 				C9E4ED1E2CCD146E00C77756 /* HomeViewController.swift */,
 				C9C2A4F22CCD243F004701C7 /* VisionKitViewController.swift */,
-				C9C2A4F42CCD2444004701C7 /* ARKitViewController.swift */,
 				C9E4ED1C2CCD146E00C77756 /* Main.storyboard */,
 			);
 			path = Views;
@@ -203,7 +200,6 @@
 			files = (
 				C9E4ED202CCD146E00C77756 /* AppDelegate.swift in Sources */,
 				C970DC122CCE12E0004FC4A4 /* NameDescribable.swift in Sources */,
-				C9C2A4F52CCD2444004701C7 /* ARKitViewController.swift in Sources */,
 				C9E4ED212CCD146E00C77756 /* SceneDelegate.swift in Sources */,
 				C9E4ED222CCD146E00C77756 /* HomeViewController.swift in Sources */,
 				C970DC152CCE137B004FC4A4 /* BaseViewController.swift in Sources */,

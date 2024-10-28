@@ -38,19 +38,11 @@
                                 <rect key="frame" x="114.33333333333333" y="376" width="164.33333333333337" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2e-d9-So1">
-                                        <rect key="frame" x="0.0" y="0.0" width="164.33333333333334" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="164.33333333333334" height="100"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Vision Kit Tracking"/>
                                         <connections>
                                             <action selector="visionKitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vr2-4J-uZj"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edv-Py-yYT">
-                                        <rect key="frame" x="0.0" y="55" width="164.33333333333334" height="45"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="ARKit Tracking"/>
-                                        <connections>
-                                            <action selector="arKitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6G-RY-rc1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -69,7 +61,6 @@
                     <navigationItem key="navigationItem" id="gg8-hm-rux"/>
                     <connections>
                         <segue destination="i5k-D8-fIC" kind="show" identifier="showVisionKit" id="fix-hy-taO"/>
-                        <segue destination="AcM-ST-UBv" kind="show" identifier="showARKit" id="fpg-66-N7W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -106,34 +97,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbg-2S-bkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1991.6030534351144" y="-298.59154929577466"/>
-        </scene>
-        <!--Kit View Controller-->
-        <scene sceneID="pck-VV-3Mw">
-            <objects>
-                <viewController storyboardIdentifier="ARKitViewController" id="AcM-ST-UBv" customClass="ARKitViewController" customModule="FaceTrackDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cXG-W0-c30">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming Soon!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trm-yT-Qxa">
-                                <rect key="frame" x="143" y="415.66666666666669" width="107.33333333333331" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="HJZ-7i-TMe"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="trm-yT-Qxa" firstAttribute="centerY" secondItem="cXG-W0-c30" secondAttribute="centerY" id="G2u-SG-yWH"/>
-                            <constraint firstItem="trm-yT-Qxa" firstAttribute="centerX" secondItem="cXG-W0-c30" secondAttribute="centerX" id="edH-di-rnr"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="12d-Y4-PBY"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uHT-xv-dnj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1992" y="401"/>
         </scene>
     </scenes>
     <resources>

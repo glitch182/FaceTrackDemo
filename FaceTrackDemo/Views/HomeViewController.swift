@@ -19,14 +19,6 @@ class HomeViewController: BaseViewController {
         show(visionKitVC, sender: self)
     }
 
-    @IBAction func arKitButtonTapped(_ sender: UIButton) {
-        guard let arKitVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: ARKitViewController.typeName) as? ARKitViewController else {
-            return
-        }
-
-        show(arKitVC, sender: self)
-    }
-
     // MARK: - View Life Cycle Methods
 
     override func viewDidLoad() {

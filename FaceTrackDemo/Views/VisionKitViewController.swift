@@ -55,11 +55,6 @@ class VisionKitViewController: BaseViewController {
         DispatchQueue.global(qos: .userInitiated).async {
             self.captureSession.startRunning()
         }
-
-        let rotationAngle: CGFloat = 270 // Portrait orientation
-        guard let connection = videoOutput.connection(with: .video),
-              connection.isVideoRotationAngleSupported(rotationAngle) else { return }
-        connection.videoRotationAngle = rotationAngle
     }
 
     private func detectFaceLandmarks(from sampleBuffer: CMSampleBuffer) {
@@ -71,7 +66,7 @@ class VisionKitViewController: BaseViewController {
             }
         }
 
-        let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:])
+        let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: .left, options: [:])
         do {
             try handler.perform([request])
         } catch {
